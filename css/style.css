@@ -1,0 +1,32 @@
+:root {
+    --variable : red ; 
+}
+
+body {
+    /* background-color: red ;  */
+    /* text-align: right; */
+    float: right;
+}
+
+
+em {
+    color: purple;
+    background-color: yellowgreen;
+}
+
+/* media queries*/
+
+
+@media only screen and  (max-width:600px) {
+
+    body { 
+
+        --variable : purple;
+        background-color: var(--variable);
+    }
+    h1{
+       color: var(--variable);
+    }
+
+}
+    
